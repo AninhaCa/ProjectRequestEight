@@ -16,11 +16,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupTableView()
     }
 
     func setupTableView() {
         requestPizza()
+        tableView.delegate = self
         tableView.dataSource = self
+        tableView.register(UINib(nibName: "MyCustomXIBCell", bundle: nil), forCellReuseIdentifier: "cellXIB")
     }
     
     func requestPizza() {
@@ -48,4 +51,11 @@ extension ViewController: UITableViewDataSource {
     }
 }
 
-
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let priceView = self.storyboard?.instantiateViewController(identifier: "price") as? PriceViewController {
+            priceView.pricePizza = arrayPizza?[indexPath.row]
+            self.present(priceView, animated: true)
+        }
+    }
+}
