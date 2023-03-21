@@ -17,6 +17,7 @@
 		77D72EF329C925720055568C /* MyCustomXIBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D72EF129C925720055568C /* MyCustomXIBCell.swift */; };
 		77D72EF429C925720055568C /* MyCustomXIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D72EF229C925720055568C /* MyCustomXIBCell.xib */; };
 		77D72EF629C92BD50055568C /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D72EF529C92BD50055568C /* PriceViewController.swift */; };
+		77D72EF829C92F2B0055568C /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D72EF729C92F2B0055568C /* RatingViewController.swift */; };
 		B21708E79892DB84D773F07C /* Pods_ProjectRequestEight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD2F824879FEDD67BC93EE7 /* Pods_ProjectRequestEight.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		77D72EF129C925720055568C /* MyCustomXIBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomXIBCell.swift; sourceTree = "<group>"; };
 		77D72EF229C925720055568C /* MyCustomXIBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomXIBCell.xib; sourceTree = "<group>"; };
 		77D72EF529C92BD50055568C /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		77D72EF729C92F2B0055568C /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
 		79875C5463B0EE8AEEC0164A /* Pods-ProjectRequestEight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestEight.release.xcconfig"; path = "Target Support Files/Pods-ProjectRequestEight/Pods-ProjectRequestEight.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				7777383129C9240000035526 /* SceneDelegate.swift */,
 				77D72EEF29C924C60055568C /* Pizza.swift */,
 				77D72EF529C92BD50055568C /* PriceViewController.swift */,
+				77D72EF729C92F2B0055568C /* RatingViewController.swift */,
 				7777383329C9240000035526 /* ViewController.swift */,
 				77D72EF129C925720055568C /* MyCustomXIBCell.swift */,
 				77D72EF229C925720055568C /* MyCustomXIBCell.xib */,
@@ -224,6 +227,7 @@
 				7777383429C9240000035526 /* ViewController.swift in Sources */,
 				7777383029C9240000035526 /* AppDelegate.swift in Sources */,
 				7777383229C9240000035526 /* SceneDelegate.swift in Sources */,
+				77D72EF829C92F2B0055568C /* RatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
