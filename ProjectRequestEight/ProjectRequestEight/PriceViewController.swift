@@ -31,12 +31,14 @@ class PriceViewController: UIViewController {
     }
     
     @IBAction func back(_ sender: Any) {
+        buttonBack.backgroundColor = .orange
         self.dismiss(animated: true)
     }
     
     @IBAction func follow(_ sender: Any) {
         if let ratingView = self.storyboard?.instantiateViewController(identifier: "rating") as? RatingViewController {
             ratingView.ratingPizza = self.pricePizza
+            buttonFollow.backgroundColor = .orange
             self.present(ratingView, animated: true)
         }
     }
